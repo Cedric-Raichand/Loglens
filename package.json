@@ -1,0 +1,14 @@
+{
+  "name": "loglens",
+  "version": "0.1.0",
+  "description": "Understand application logs: levels, recurring errors, and error trends.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "loglens": "src/cli.js" },
+  "scripts": {
+    "test": "node --test",
+    "analyze": "node src/cli.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
