@@ -1,0 +1,16 @@
+2026-10-20T10:00:01Z INFO Server started on port 5000
+2026-10-20T10:02:10Z INFO User login successful
+2026-10-20T10:05:44Z INFO Appointment booking requested
+2026-10-20T10:15:02Z ERROR Database connection timeout
+2026-10-20T10:15:09Z WARN Appointment request failed for user 102
+2026-10-20T10:15:30Z ERROR Database connection timeout
+2026-10-20T10:16:11Z ERROR Appointment request failed for user 205
+2026-10-20T10:17:45Z ERROR Database connection timeout
+2026-10-20T10:18:20Z ERROR Invalid token for user 318
+2026-10-20T10:19:03Z ERROR Database connection timeout
+2026-10-20T10:20:40Z WARN Request took too long
+2026-10-20T10:22:12Z ERROR Database connection timeout
+{"time":"2026-10-20T10:25:00Z","level":"error","msg":"Database connection timeout"}
+    at Pool.acquire (db.js:88)
+2026-10-20T11:30:00Z INFO User login successful
+2026-10-20T11:42:00Z ERROR Invalid token for user 77
